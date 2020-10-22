@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Register credentialsa</title>
+        <style>
+            *{
+                box-sizing: border-box;
+                background: #42455a;
+            }
+            .Main-Form {
+                    background: white;
+                    max-width: 45%;
+                    padding: 15px;
+                    margin: auto;
+                    height:auto;
+                    margin-top: 100px;
+                    
+              }
+            .title{
+                font-size: 18px;
+                transform:uppercase;
+                text-align: center;
+                padding: 4px;
+                background: #42455a;
+                color: #ccc;
+                /*height: 80px;*/
+            }
+            input[type=text]{
+                 width: 70%;
+                 max-height: auto;
+                 padding: 5px;
+                 border-radius: none;
+                font-size: 20px;
+                background:#fff;
+                margin-left: 70px;
+                
+            }
+            .Main-Form label {
+                 font-size: 20px;
+                margin-left: 70px;
+    
+                color: black; 
+                 background:#fff;
+            }
+            .submit {
+                background:#171a14;
+                font-size: 25px;
+                font-weight: bold;
+                color: ccc;
+                text-align: center;
+                width: 53%;
+                margin-top: 10px;
+                margin-left: 125px;
+                margin-bottom: 20px;
+                
+            }
+            .submit:hover {
+                background-color: #142507;
+                cursor: pointer;
+            }
+            .Main-Form select{
+                margin-left: 70px;
+                background: #fff;
+                font-size: 15px;
+                color: black;
+            }
+            .label1 a {
+                margin-top: 2px;
+                background-color: fff;
+                text-decoration: none;
+                color:red;
+                margin-left: 170px;
+            }
+            .label1 a:hover{
+                background-color: #171a14;
+                
+            }
+                
+            
+        </style>
+    </head>
+    <body>
+    <form class="Main-Form">
+          <div class="title">
+           <h2>Registration Form</h2>
+          </div><br>
+        <label>Name & Surname</label><br><input type="text" name="name"  placeholder="name & surname"><br><br>
+        <select name="gender" size = "1">
+            <option value="male">male</option>
+            <option value="female">female</option>
+        </select><br><br>
+        <label>Phone Number</label><br><input type="text" name="phone-number" placeholder="phone number"><br><br>
+        <label>Email </label><br><input type="text" name="email" placeholder="email address"><br><br>
+        <label>username </label><br><input type="text" name="email" placeholder="username"><br><br>
+        <label>Password</label><br><input type="text" name="password" placeholder="password"><br><br>
+        <input type="submit" class="submit" name="submit" value="submit"><br>
+        <label class="label1"><a href="LoginForm.html">Cancel</a></label>
+    </form>
+    </body>
+</html>
